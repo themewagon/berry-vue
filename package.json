@@ -12,8 +12,7 @@
     "preview": "vite preview --port 5050",
     "typecheck": "vue-tsc --noEmit",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-pattern .gitignore",
-    "postbuild": "touch dist/.nojekyll",
-    "deploy": "gh-pages -d dist"
+    "deploy": "touch dist/.nojekyll && gh-pages -d dist --dotfiles"
   },
   "dependencies": {
     "@mdi/js": "^7.4.47",
