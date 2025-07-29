@@ -1,5 +1,4 @@
-# Berry Free Vue Material Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Berry%20React%20-%20The%20most%20beautiful%20Material%20designed%20Admin%20Dashboard%20Template%20&url=https://berrydashboard.io&via=codedthemes&hashtags=reactjs,webdev,developers,javascript)
-
+# Berry Free Vue Material Admin Template 
 #### Preview
 
 - [Demo](https://themewagon.github.io/berry-vue/)
