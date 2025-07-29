@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-import { SettingsIcon, LogoutIcon, UserIcon } from 'vue-tabler-icons';
 import { useAuthStore } from '@/stores/auth';
+import { ref } from 'vue';
+import { LogoutIcon, SettingsIcon, UserIcon } from 'vue-tabler-icons';
 
 const swt1 = ref(true);
 const swt2 = ref(false);
@@ -24,14 +24,6 @@ const authStore = useAuthStore();
 
     <v-divider></v-divider>
     <perfect-scrollbar style="height: calc(100vh - 300px); max-height: 515px">
-      <div class="bg-lightwarning rounded-md pa-5 my-3 circle sm-circle lg-circle">
-        <h4>Upgrade your plan</h4>
-        <h6 class="text-subtitle-2 text-medium-emphasis mr-11 pr-11 mb-3 mt-2">70% discount for 1 years subscriptions.</h6>
-        <v-btn color="warning" variant="flat" target="_" href="https://codedthemes.com/item/berry-vue-admin-dashboard/"> Go Premium </v-btn>
-      </div>
-
-      <v-divider></v-divider>
-
       <div class="bg-lightprimary rounded-md px-5 py-3 my-3">
         <div class="d-flex align-center justify-space-between">
           <h5 class="text-h5">Start DND Mode</h5>
