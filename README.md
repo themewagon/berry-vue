@@ -37,7 +37,7 @@ bun start
 ## Author
 
 ```
-Berry is developed by Team [CodedThemes](https://codedthemes.com).
+Berry is developed by Team CodedThemes.
 ```
 
 ## License
