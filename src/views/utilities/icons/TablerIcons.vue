@@ -5,7 +5,7 @@ import { ref } from 'vue';
 
 const page = ref({ title: 'Tabler Icons' });
 
-const icons = ref('<iframe src="https://docs.tabler.io/icons/libraries/vue" frameborder="0"  width="100%" height="1000"></iframe>');
+// const icons = ref('<iframe src="https://docs.tabler.io/icons/libraries/vue" frameborder="0"  width="100%" height="1000"></iframe>');
 const breadcrumbs = ref([
   {
     title: 'Icons',
@@ -24,9 +24,7 @@ const breadcrumbs = ref([
   <BaseBreadcrumb :title="page.title" :breadcrumbs="breadcrumbs"></BaseBreadcrumb>
   <v-row>
     <v-col cols="12" md="12">
-      <UiParentCard title="Tabler Icons">
-        <div v-html="icons"></div>
-      </UiParentCard>
+      <UiParentCard title="Tabler Icons"> </UiParentCard>
     </v-col>
   </v-row>
 </template>
